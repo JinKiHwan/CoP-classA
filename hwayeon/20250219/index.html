@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table_1</title>
+  </head>
+  <body>
+    <h1>표 태그</h1>
+    <table border="1">
+      <!--border: 테두리, 몊 px의 값을 줄 건지 설정-->
+      <!--형제 태그: 동일한 위치의 태그 (tr끼리 형제!)-->
+      <!--프리티어 적용 시 br태그 모양이 바뀌는 이유: 태그의 기본 구조가 열림/닫힘 구조라서, 내부에 콘텐츠가 없는 경우 <b />이렇게 됨-->
+      <tr>
+        <!--자리 태그??-->
+        <td>1행 1열</td>
+        <!--tr 아래 헤더 태그, 자동으로 글씨 볼드 처리-->
+      </tr>
+      <tr></tr>
+    </table>
+    <br />
+    <table border="1">
+      <tr>
+        <td>1행 1열</td>
+        <td>1행 2열</td>
+        <td>1행 3열</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1">
+      <tr>
+        <td>1행 1열</td>
+        <td>1행 2열</td>
+      </tr>
+      <tr>
+        <td>2행 1열</td>
+        <td>2행 2열</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1">
+      <tr>
+        <th></th>
+        <th>탄수화물</th>
+        <th>단백질</th>
+      </tr>
+      <tr>
+        <th>함량</th>
+        <td>26g</td>
+        <td>3g</td>
+      </tr>
+      <tr>
+        <th>비율</th>
+        <td>8g</td>
+        <td>5g</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1">
+      <caption>
+        <!--테이블 태그의 제목을 설정해 주는 태그 캡숑-->
+        주말 박스 오피스
+      </caption>
+      <tr>
+        <th>순위</th>
+        <th>영화명</th>
+        <th>배급사</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>인셉션</td>
+        <td>워너</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>얼간이들을 위한 만찬</td>
+        <td>파라마운드</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>솔트</td>
+        <td>소니</td>
+      </tr>
+    </table>
+    <!--셀 병합-->
+    <!--행 병합-->
+    <br />
+    <table border="1">
+      <tr>
+        <td rowspan="2">행 병합 상하 합치기</td>
+        <!--row span: 내가 2만큼의 자리를 차지하겠다는 뜻~ㄴ-->
+        <td>1행 2열</td>
+      </tr>
+      <tr>
+        <td>2행 2열</td>
+      </tr>
+    </table>
+    <br />
+    <!--열 병합-->
+    <table border="1">
+      <tr>
+        <td colspan="2">열 병합 좌우 합치기</td>
+        <td>다른 거</td>
+      </tr>
+      <tr>
+        <td>2행 1열</td>
+        <td>2행 2열</td>
+      </tr>
+    </table>
+  </body>
+</html>
