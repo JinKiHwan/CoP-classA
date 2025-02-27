@@ -18,11 +18,10 @@
 }
 
 .text {
-  display: inline-block; /**/
+  display: inline-block; /*텍스트 영역에만 적용!*/
   border: 1px solid blue;
   background: blue;
   color: white;
-  height: 50px;
   line-height: 50px;
   font-size: 23px;
 }
