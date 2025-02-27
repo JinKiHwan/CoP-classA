@@ -1,0 +1,28 @@
+.box {
+  border: 2px solid navy;
+  border-radius: 10px; /*둥글래미*/
+  /*css의 단위: 
+  - px(고정값/브라우저의 확장 여부와 관계 없이 고정되는 값을 가짐)
+  - %(부모 요소의 넓이만큼을 따라감 body의 n%를 따라가라. 반응형 web 만들 때 많이 쓰임)
+   */
+  width: 200px;
+  height: 100px;
+  background: lightblue; /*백그라운드가 백그라운드-컬러보다 큰 범위;*/
+  text-align: center; /*줄맞춤*/
+  line-height: 100px; /*행간, 텍스트의 영역*/
+  background-image: url(https://static.coupangcdn.com/ga/cmg_paperboy/image/1740551779232/PC2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*색상 주소 반복 포지션 사이즈 등.. 순서가 있다. >>검색해 보기*/
+}
+
+.text {
+  display: inline-block; /**/
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  font-size: 23px;
+}
