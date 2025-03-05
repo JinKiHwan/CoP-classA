@@ -1,0 +1,92 @@
+/*이미지 크기부터 버튼까지*/
+p {
+  margin: 0;
+}
+
+.carimg {
+  width: 500px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.carimg img {
+  /*div 클래스 안의 img 태그를 불러 온 것*/
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  /*오브젝트핏 태그로 늘어나지 않게 위 규격에 맞도록 잘라낼 수 있다.*/
+}
+/*이미지 태그의 경우는 보통 부모 태그를 만들어서, 그 사이즈 안에 넣는 것이 일반적*/
+/*보통 피규어 태그 안에 넣음*/
+
+button {
+  border: none;
+  background: none;
+}
+
+.btn {
+  background-color: #f60;
+  /*둘 짝지어지는 헥사코드는 위와 같이 축약할 수 있다.*/
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: cell;
+}
+
+.btn:hover {
+  background-color: magenta;
+  padding: 50px 100px;
+}
+
+/*테이블*/
+#wrab {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.header {
+  background-color: #c00;
+  color: white;
+  padding: 10px 25px;
+}
+
+.contents {
+  border: 1px dashed #c00;
+  margin: 25px 0;
+  padding: 10px 25px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.contents p {
+  font-size: 18px;
+}
+
+.contents .red {
+  color: #c00;
+}
+
+.table_wrab table {
+  border: 1px solid lightgray;
+  width: 100%;
+  border-top: 6px solid #c00;
+  border-collapse: collapse;
+  /*테이블 안의 줄 붙일 때 씀*/
+}
+
+.table_wrab table th {
+  background-color: #f7e1e3;
+}
+
+.table_wrab table th,
+.table_wrab table td {
+  border: 1px solid #f5d7d8;
+  text-align: center;
+  padding: 10px 0;
+}
