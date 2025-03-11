@@ -1,0 +1,45 @@
+p {
+  padding-bottom: 15px;
+}
+
+.bigbox {
+  border: 5px solid #f60;
+  margin: 50px auto;
+  padding: 50px 50px;
+  width: 1000px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: #f60;
+}
+
+.point p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.point {
+  background-color: #f60;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#pyo {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#pyo th {
+  background-color: #ededed;
+}
+
+#pyo th,
+#pyo td {
+  border: 1px solid #f5d7d8;
+  text-align: center;
+  padding: 10px 0;
+}
